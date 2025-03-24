@@ -1,29 +1,58 @@
-Home page:
-- Displays an introductory text about astrology and horoscopes
-- Contains a navigation menu (Home, Personal Horoscopes, Services, Contact)
-- Allows scrolling down to additional information
+1. Home Page:
+-------------
+- Displays a header with the site logo and primary navigation menu.
+- Introductory section highlighting horoscopes and astrology.
+- Dynamic content feed: latest horoscope articles auto-load while scrolling.
+- Contains featured articles with images and titles.
+- Fully scrollable with dynamic loading of new articles.
 
-Personal Horoscopes:
-- Contains a short description of the service
-- Has a button "Order Personal Horoscope"
-- Clicking the button opens the default email client (mailto link)
+2. Navigation Menu:
+-------------------
+- Links to the following sections:
+  - KONSULTACIJOS (Consultations)
+  - 2025 (Horoscope year section)
+  - STRAIPSNIAI (Articles)
+  - MĖNULIS ŽENKLUOSE (Moon in Signs)
+  - MĖNULIO PAROS (Moon Phases)
+- Navigation menu appears as a hamburger menu on smaller screens (mobile/tablet).
+- Clicking items navigates to their respective sections/pages.
 
-Services:
-- Lists all provided services with explanations
-- Contains a list of services (Personal Horoscope, Business Horoscope, Child Horoscope, etc.)
+3. Search Functionality:
+------------------------
+- Search bar located in the header, activated by a magnifying glass icon.
+- Accepts user input and displays search results dynamically.
+- When a valid keyword is searched (e.g., "asmenin"), articles are listed.
+- When a non-existent keyword is searched (e.g., "traktorius"), message "Nieko nerasta" is displayed.
 
-Contact:
-- Displays contact information: email, phone
-- Has a contact form (Name, Email, Subject, Message)
-- "Send" button is available for message submission
+4. Article Pages:
+-----------------
+- Each article has a dedicated page with full text, images, and publishing date.
+- Articles include categories and tags.
 
-Footer:
-- Contains social media links (e.g., Facebook, Instagram)
-- Copyright information is displayed
+5. Cookie Consent Popup:
+------------------------
+- Popup asking users to consent to cookies ("Sutikimas" button).
+- Appears on first visit or when cookies are not yet accepted.
+- Disappears after clicking "Sutikimas".
 
-Additional functionality:
-- Navigation menu links scroll or navigate to correct sections/pages
-- Social media links open in a new browser tab
-- Contact form checks if required fields are filled (basic validation)
-- Responsive design: layout adjusts for mobile and tablet views
-- Clicking "Order Personal Horoscope" opens email client with prefilled recipient
+6. Social Media Links:
+----------------------
+- Facebook and YouTube icons located in the footer.
+- Clicking icons opens social media pages in a new browser tab.
+
+7. Responsive Design:
+---------------------
+- Layout adapts to various screen sizes:
+  - Mobile (iPhone X): hamburger menu, articles stacked vertically.
+  - Tablet (iPad): adaptive layout with readable text.
+  - Desktop (MacBook): full layout with horizontal menu.
+
+8. Footer:
+----------
+- Contains copyright info.
+- Includes Facebook and YouTube icons linking externally.
+
+9. Language & Content:
+----------------------
+- Entire website is in Lithuanian.
+- Content includes astrology topics, moon cycles, and horoscopes.
