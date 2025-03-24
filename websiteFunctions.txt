@@ -1,0 +1,29 @@
+Home page:
+- Displays an introductory text about astrology and horoscopes
+- Contains a navigation menu (Home, Personal Horoscopes, Services, Contact)
+- Allows scrolling down to additional information
+
+Personal Horoscopes:
+- Contains a short description of the service
+- Has a button "Order Personal Horoscope"
+- Clicking the button opens the default email client (mailto link)
+
+Services:
+- Lists all provided services with explanations
+- Contains a list of services (Personal Horoscope, Business Horoscope, Child Horoscope, etc.)
+
+Contact:
+- Displays contact information: email, phone
+- Has a contact form (Name, Email, Subject, Message)
+- "Send" button is available for message submission
+
+Footer:
+- Contains social media links (e.g., Facebook, Instagram)
+- Copyright information is displayed
+
+Additional functionality:
+- Navigation menu links scroll or navigate to correct sections/pages
+- Social media links open in a new browser tab
+- Contact form checks if required fields are filled (basic validation)
+- Responsive design: layout adjusts for mobile and tablet views
+- Clicking "Order Personal Horoscope" opens email client with prefilled recipient
