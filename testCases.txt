@@ -1,32 +1,70 @@
-Home page:
-1.1: Page load:
-1.1.1. Check that the main introduction text is visible
-1.1.2. Verify the navigation menu contains: KONSULTACIJOS, 2025, STRAIPSNIAI, MĖNULIS ŽENKLUOSE, MĖNULIO PAROS.
+1. Home Page
 
-1.2: Navigation functionality:
+1.1: Page Load
+1.1.1. Check that the main introduction text is visible
+1.1.2. Verify the navigation menu contains: 
+       KONSULTACIJOS, 2025, STRAIPSNIAI, MĖNULIS ŽENKLUOSE, MĖNULIO PAROS
+
+1.2: Navigation Functionality
 1.2.1. Verify that clicking "KONSULTACIJOS" displays consultation-related content
 1.2.2. Verify that clicking "MĖNULIS ŽENKLUOSE" displays moon sign information
 1.2.3. Verify that clicking "MĖNULIO PAROS" displays moon days information
 
-1.3: Responsive layout:
-1.3.1. Verify that the layout adjusts correctly on mobile and tablet viewports
+---
 
-Personal Horoscope page:
-2.1: Button visibility and link:
-2.1.1. Check that the "Order Personal Horoscope" button is visible
-2.1.2. Check that clicking the button opens the default mail client using mailto link
+2. Dynamic Content Load (Home Page)
 
-Services page:
-3.1: Services listing:
-3.1.1. Verify that the following services are listed: Personal Horoscope, Business Horoscope, Child Horoscope, etc.
+2.1: Scroll Functionality
+2.1.1. Record the initial number of visible articles/posts on page load
+2.1.2. Scroll to the bottom of the page
+2.1.3. Wait for new content to load (e.g., 3 seconds)
+2.1.4. Check that the number of articles/posts has increased
+2.1.5. Verify that newly loaded articles/posts are visible on the page
 
-Contact page:
-4.1: Contact form:
-4.1.1. Verify that the form has input fields for: Name, Email, Subject, Message
-4.1.2. Verify that clicking the "Send" button triggers a success confirmation (if applicable)
-4.1.3. Check that form input validation is in place (e.g., required fields must be filled)
+---
 
-Footer section:
-5.1: Social media links:
-5.1.1. Check that Facebook and Instagram links are present
-5.1.2. Check that social media links open in a new browser tab
+3. Footer Section
+
+3.1: Social Media Links
+3.1.1. Check that Facebook and YouTube icons are present
+3.1.2. Check that Facebook link points to: https://www.facebook.com/PalmiraKelertiene/
+3.1.3. Check that YouTube link points to: https://www.youtube.com/channel/UCuxmV7YbyxKBYRke-OE166Q
+3.1.4. Check that both links open in a new browser tab (target="_blank")
+
+---
+
+
+4. Search Functionality
+
+4.1: Valid Search Query
+4.1.1. Open search input field
+4.1.2. Enter a valid keyword (e.g., "asmenin") and submit
+4.1.3. Wait for the results to load
+4.1.4. Verify that "PAIEŠKOS REZULTATAI PAGAL" is visible on the page
+4.1.5. Check that at least one article/post is displayed in results
+
+4.2: Invalid Search Query
+4.2.1. Open search input field
+4.2.2. Enter a non-existing keyword (e.g., "traktorius") and submit
+4.2.3. Wait for the results to load
+4.2.4. Verify that the text "Nieko nerasta" is displayed
+
+5.1: Layout Adjustment on Devices
+
+5.1.1. Viewport: iPhone X (375x812)
+  - Set viewport to iPhone X
+  - Close the cookie popup if it appears
+  - Click on the "KONSULTACIJOS" menu item
+  - Verify that the "Konsultacijos" section is visible
+
+5.1.2. Viewport: iPad (768x1024)
+  - Set viewport to iPad
+  - Close the cookie popup if it appears
+  - Click on the "KONSULTACIJOS" menu item
+  - Verify that the "Konsultacijos" section is visible
+
+5.1.3. Viewport: MacBook 15 (1440x900)
+  - Set viewport to MacBook 15
+  - Close the cookie popup if it appears
+  - Click on the "KONSULTACIJOS" menu item
+  - Verify that the "Konsultacijos" section is visible
